@@ -9,7 +9,6 @@ services:
       - /srv/homelab/data/jellyfin/config:/config
       - /srv/homelab/data/jellyfin/cache:/cache
       - /srv/homelab/data/media:/media
-    # Si /dev/dri no existe en la VM, borra estas 2 líneas:
     devices:
       - /dev/dri:/dev/dri
     networks:
